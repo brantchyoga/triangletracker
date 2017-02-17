@@ -1,0 +1,36 @@
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+.panel-heading {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.panel-body {
+  font-size: 20px;
+}
+#dog {
+  width:75%;
+  margin-left: 8%;
+  padding-left: 40px;
+}
+.jumbotron {
+  background-image:url('https://s-media-cache-ak0.pinimg.com/originals/0d/9b/24/0d9b24189f42fb3f2563ef854b41ab0f.png');
+  background-size: cover;
+}
+body {
+  background-image:url('http://wallpapercave.com/wp/cSp0w25.jpg');
+  background-size: auto;;
+
+}
+#equ, #iso, #sca, #correct {
+  color: white;
+  text-align: center;
+  display: none;
+  border: 2px dashed #00547f
+}
+#but {
+  text-align: center;
+}

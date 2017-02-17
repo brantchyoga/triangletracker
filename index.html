@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Find out What Type of Triangle you are Creating</h2>
+        <p>There are three types of trianges that can be created</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-info">
+            <div class="panel-heading">Types Of Triangles!</div>
+            <div class="panel-body">
+              <ul>
+                <li>Equilateral: All sides are equal.</li>
+                <li>Isosceles: Exactly 2 sides are equal</li>
+                <li>Scalene: No sides are equal</li>
+              </ul>
+              <div>
+                <img id="dog" src="https://image.shutterstock.com/z/stock-vector-husky-dog-low-poly-design-triangle-vector-illustration-325800437.jpg">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Try to figure create sides that will <strong><em>NOT</em></strong> make a triangle!</h3>
+        <form id="tri">
+          <div class="form-group">
+            <label for="side1">Enter your 1st Side</label>
+            <input id="side1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="side2">Enter your 2st Side</label>
+            <input id="side2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="side3">Enter your 3st Side</label>
+            <input id="side3" class="form-control" type="text">
+          </div>
+          <div id="but"><button type="sumbit" class="btn">Enter!</button></div>
+        </form>
+        <div id="equ">
+          <h2>Your Triangle Is Equilateral! Try again...</h2>
+        </div>
+        <div id="iso">
+          <h2>Your Traingle is Isosceles! Try again...</h2>
+        </div>
+        <div id="sca">
+          <h2>Your Triangle is Scalene! Try again...</h2>
+        </div>
+        <div id="correct">
+          <h2>Congradulations are creating sides that would not make a triangle!</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
